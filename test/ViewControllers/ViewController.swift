@@ -20,7 +20,6 @@ class ViewController: UIViewController {
     var hits = [Hits]()
     
     var isNetworkConnected: Bool = Reachability.isConnectedToNetwork()
-//    var isNetworkConnected: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
